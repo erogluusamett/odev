@@ -1,3 +1,3 @@
 FROM openjdk:21
-ADD target/devops.jar devops.jar
+ADD target/odev.jar odev.jar
 ENTRYPOINT ["java","-jar","/odev.jar"]
